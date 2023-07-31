@@ -17,8 +17,8 @@ body {
 }
 
 .container {
-    padding: 30px 22px;
-    width: 42rem;
+    padding: 10px 22px;
+    width: 20rem;
 }
 
 .container h1 {
@@ -34,13 +34,14 @@ body {
     justify-content: space-between;
     padding: 10px;
     border: 1px solid #999;
-    border-radius: 0px;
+    border-radius: 5px;
 }
 
 .searchBox input {
     background-color: black;
     color: white;
     padding: 5px 10px;
+    margin-left: 10px;
     border: none;
     outline: none;
     border-radius: 6px;
@@ -50,6 +51,22 @@ body {
 
 .searchBox input:hover {
     background-color: black;
+}
+
+.searchBox button {
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.searchBox button:hover {
+    background-color: white;
+    color: black;
 }
 
 .details {
